@@ -1,0 +1,80 @@
+body {
+  background: rgb(87, 191, 254);
+}
+
+.mewtwo {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  background-image: url(mewtwo.png);
+  width: 60px;
+  height: 70px;
+
+}
+
+.ray {
+  position: absolute;
+  top: 5%;
+  right: 30%;
+  background-image: url(ray.png);
+  width: 120px;
+  height: 60px;
+
+}
+
+.drag{
+  position: absolute;
+  bottom: 0;
+  background-image: url(drag.png);
+  width: 60px;
+  height: 60px;
+}
+
+.dugtrio {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(dugtrio.png);
+}
+
+.game-over {
+  text-align: center;
+  color: #666;
+  margin: 50px 0;
+  font-family: arial;
+}
+
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+
+.ceu{
+  position: absolute;
+  top: 0px;
+  background-image: url('estrelas.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+
+}
+
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('BG.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}

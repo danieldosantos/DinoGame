@@ -1,2 +1,0 @@
-# DinoGame
-Dinogame
